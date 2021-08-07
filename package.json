@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "1.15.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "@babel/runtime": "^7.1.2",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "cors": "^2.8.4",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.15.2",
+    "objection": "^1.6.11",
+    "pg": "^7.18.2",
+    "uuid": "^3.3.2"
+  }
+}
